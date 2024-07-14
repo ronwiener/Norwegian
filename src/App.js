@@ -40,7 +40,7 @@ const RenderTime = ({ remainingTime }) => {
           letterSpacing: "0.1em",
         }}
       >
-        {remainingTime < 180 ? "RECOVER" : "WORK IT!!!"}
+        {remainingTime < 180 ? "RECOVER" : "WORK IT!!"}
       </div>
       <div
         style={{
