@@ -219,7 +219,7 @@ function App(remainingTime) {
                       "#0B379DFF",
                       "#40ffaa",
                     ]}
-                    animationSpeed={3}
+                    animationSpeed={5}
                     showBorder={false}
                     className="custom-class"
                   >
