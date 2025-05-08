@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+import GradientText from "./GradientText";
 
 const RenderTime = ({ remainingTime }) => {
   const theme = useTheme();
@@ -210,9 +211,26 @@ function App(remainingTime) {
               >
                 Completed: {loopCount}
                 <div>
+                  <GradientText
+                    colors={[
+                      "#40ffaa",
+                      "#4079ff",
+                      "#40ffaa",
+                      "#4079ff",
+                      "#40ffaa",
+                    ]}
+                    animationSpeed={3}
+                    showBorder={false}
+                    className="custom-class"
+                  >
+                    <span>{encouragement(loopCount)}</span>
+                  </GradientText>
+
+                  {/*
                   <span style={{ color: "#FFFFFF" }}>
                     {encouragement(loopCount)}
                   </span>
+                  */}
                 </div>
               </Typography>
             </Grid>
