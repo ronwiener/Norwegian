@@ -83,7 +83,7 @@ function App(remainingTime) {
     "Don't go easy",
     "Tired? Do it anyway",
     "Ok, not so bad",
-    "Workin' it 😬",
+    "Workin' it",
     "Breathe deep",
     "Easy? You're doing it wrong",
   ];
@@ -95,7 +95,7 @@ function App(remainingTime) {
     "Keep it going!",
     "Hang in there",
     "Yes, keep it up",
-    "Starting to sweat 😰",
+    "Starting to sweat",
     "Get what you give",
     "Make every sprint count!",
     "No excuses, just do it",
