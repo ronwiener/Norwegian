@@ -18,8 +18,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build --openssl-legacy-provider",
     "chrome": "BROWSER='google chrome' react-scripts start",
     "safari": "BROWSER=safari react-scripts start",
     "test": "react-scripts test",
